@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Card from './components/Card'
 import Home from './components/Home'
 import Learn from './components/Learn'
+import Contact from './components/Contact'
  
 
 
@@ -17,6 +18,7 @@ const App = () => {
     <Route path='/home' element={<Home/>}/>
       <Route path='/card' element={<Card/>}/>
       <Form/>
+      <Contact/>
     </Routes>
     </Router>
 
