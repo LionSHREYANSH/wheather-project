@@ -1,5 +1,5 @@
 import React from 'react'
-import {BrowserRouter as Router , Route , Routes} from "react-router-dom"
+import {BrowserRouter as Router , Route , Routes, Form} from "react-router-dom"
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import Home from './components/Home'
@@ -16,6 +16,7 @@ const App = () => {
     <Route path='/learn' element={<Learn/>}/>
     <Route path='/home' element={<Home/>}/>
       <Route path='/card' element={<Card/>}/>
+      <Form/>
     </Routes>
     </Router>
 
